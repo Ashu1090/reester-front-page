@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+li,ul,a{
+    display: inline;
+    padding-left: 15px;
+    color: #f1f1f1;
+
+}
+
+ul{
+    padding-left: 2px;
+    margin-left: 50%;
+    font-size: 18px;
+    font-weight: 200;
+    display: inline;
+    text-align: center;
+}
+
+
+nav{
+    width: 100%;
+    background-color: rgb(182, 24, 214);
+    padding: 10px;
+    color: #f1f1f1;
+}
+
+h2{
+    font-size: 26px;
+}
+
+h1
+{ 
+  font-family: "Poetsen One", sans-serif;
+  display: inline;
+  font-size: 36px;
+  padding: px;
+  margin-right: 7%;
+}
+
+.box{
+    background-color: white;
+}
+
+span{
+    font-family: "Montserrat", sans-serif;
+    padding: 5px;
+    color: rgb(252, 173, 3);
+    font-weight: bold;
+    font-size: medium;
+}
+
+p{
+ font-family: "Montserrat", sans-serif;
+ padding: 5px;
+ color: rgb(0, 0, 0);
+ font-weight: bolder;
+ font-size: large;
+}
+
+li,a:hover{
+    color: rgb(243, 219, 0);
+    cursor: pointer;
+}
+
+.bg{
+    background-image: url(images/sliced-fruits-berries-yellow-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 0px;
+}
+
+.product{
+    display: flex;
+    text-align: center;
+    margin-top:0px ;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+}
+
+.box{
+    margin: 15px;
+    width: 210px; 
+    border-color: rgb(57, 57, 65);
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block ;
+    text-align: center;
+}
+
+
+button{
+    color: rgb(255, 255, 255);
+    background-color:rgb(150, 91, 168) ;
+    padding: 2px;
+    box-shadow: 2px 2px 5px rgb(43, 7, 54);
+    width: 100px;
+}
+
+button:hover{
+    color:rgb(243, 219, 0);
+    cursor: pointer;
+}
+
+
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #f1f1f1;
+    background-color: rgb(182, 24, 214);
+}
+
+
+#to{
+    background-color: yellow;
+    width: 150px;
+    border-radius: 15px;
+    box-shadow: 20px chocolate ;
+}
+
+.button{
+    text-align: center;
+    padding: 10px;
+    box-shadow: #0d0808 inset 10px;}
+
+#to:hover{
+    color: rgb(182, 24, 214);
+    cursor: pointer;
+}
+
+.search{
+    text-align: center;
+    display:inline;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    position: absolute;
+    top: 25px;
+}
+
+.header{
+   position: relative;
+   padding: 20px;
+   background-color: rgb(182, 24, 214);
+}
+
+.search input{
+    background: transparent;
+    outline: none;
+    border: none;
+    margin:0px;
+    text-align: start;
+    transition: 0.8s;
+}
+
+.x{
+    margin-top: 2px;
+    display: inline;
+    margin-bottom: 5px;
+}
+.a {
+   margin: 5px;
+   border-radius: 12px;
+}
+
+
+form {
+    border-color: rgb(57, 57, 65);
+    border-width: 2px;
+    border-style: solid;
+    width: fit-content;
+    margin: 5px;
+    padding: 10px;
+}
+
+tr{
+    margin: 10px;
+}
+
+
+.ff{
+    color: rgb(166, 97, 223);
+    font-size: 18px;
+}
+
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+   
